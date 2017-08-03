@@ -13,7 +13,7 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-function checkPassword(user) {
-  for(var i=0;i<len(user);i++)
+function checkPassword(pw) {
+  for(var i=0;i<len(pw);i++)
    var user = document.getElementById("pw").innerHTML;
 }
