@@ -15,5 +15,9 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword(pw) {
-  var n = string.includes(dictionary.txt)
+  for(var i=0;i<len(pw);i++)
+    var patt = new RegEx(pw);
+    var res = patt.test(pw);
+  if res == True:
+    print("Please enter a website that is stronger,"
 }
