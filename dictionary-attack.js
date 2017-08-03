@@ -13,7 +13,7 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-function checkPassword() {
+function checkPassword(){
 var user = document.getElementById("pw").value;
   for(var i = 0 ; i < wordList.length , i++){
     if (user == wordList[i]){
