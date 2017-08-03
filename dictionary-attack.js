@@ -15,5 +15,7 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-
+var n = string.includes(dictionary.txt)
+if n == True:
+  print("Your password is too weak")
 }
