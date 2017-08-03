@@ -19,5 +19,5 @@ function checkPassword(pw) {
     var patt = new RegEx(pw);
     var res = patt.test(pw);
   if res == True:
-    print("Please enter a website that is stronger,"
+    print("Please enter a website that is stronger,")
 }
