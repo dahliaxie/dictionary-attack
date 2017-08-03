@@ -14,6 +14,15 @@ window.onload = init;
 
 /* ADD YOUR CODE BELOW */
 
-function checkPassword() {
-
+function checkPassword(){
+var user = document.getElementById("pw").value;
+  for(var i = 0 ; i < wordsList.length , i++){
+    if (user == wordsList[i]){
+      document.getElementById("result").innerHTML = "your password is too weak";
+      break;
+    }
+  }
 }
+    
+
+
