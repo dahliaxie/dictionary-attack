@@ -13,11 +13,7 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-
-function checkPassword(pw) {
-  for(var i=0;i<len(pw);i++)
-    var patt = new RegEx(pw);
-    var res = patt.test(pw);
-  if res == True:
-    print("Please enter a website that is stronger,")
+function checkPassword(user) {
+  for(var i=0;i<len(user);i++)
+   var user = document.getElementById("pw").innerHTML;
 }
