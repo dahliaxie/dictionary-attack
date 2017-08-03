@@ -23,6 +23,5 @@ var user = document.getElementById("pw").value;
     }
   }
 }
-    
 
-
+  
