@@ -17,7 +17,7 @@ function checkPassword() {
 var user = document.getElementById("pw").value;
   for(var i = 0 ; i < wordList.length , i++){
     if (user == wordList[i]){
-      document.getElementById("result").innerHTML = "your password is too weak"
+      document.getElementById("result").innerHTML = "your password is too weak";
       break;
     }
   }
