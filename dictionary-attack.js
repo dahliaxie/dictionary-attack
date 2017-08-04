@@ -15,17 +15,25 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword(){
-var user = document.getElementById("pw").value;
-var running = true;
-while (running = true){
+  var user = document.getElementById("pw").value;
+  var = running
   for(var i = 0 ; i < wordList.length ; i++){
     if (user == wordList[i]){
-      document.getElementById("result").innerHTML = "your password is too weak";
+      running = false;
+      printResults(running);
+    }
+  }
+  running = true;
+  printResults(running);
+}  
+function printResults(running) {
+  if(running == true){
+      document.getElementById("result").innerHTML = "good password!";
        break;
     }else;{
-      document.getElementById("result").innerHTML = "that's a strong password!";
-      running = false;}
-}
+      document.getElementById("result").innerHTML = "that's a weak password, try again!";
+      location.reload();
+      checkPassword();
+  }
 }  
-}
 
