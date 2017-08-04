@@ -21,10 +21,9 @@ while (running == True) {
   for(var i = 0 ; i < wordList.length , i++){
     if (user == wordList[i]){
       document.getElementById("result").innerHTML = "your password is too weak";
-    } location.reload();
   }   document.getElementById("result").innerHTML = "that's a strong password!";
         running = False;
+  }
 }
-}
-    
+}  
 
