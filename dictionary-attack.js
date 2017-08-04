@@ -16,16 +16,14 @@ window.onload = init;
 
 function checkPassword(){
 var user = document.getElementById("pw").value;
-// var running = True;
-// while (running == True) {
+var running = True;
+while (running == True) {
   for(var i = 0 ; i < wordList.length , i++){
     if (user == wordList[i]){
       document.getElementById("result").innerHTML = "your password is too weak";
     }
-    function checkPassword(){
-      for(var i = 0 ; i < wordList.length , i++){
   }   document.getElementById("result").innerHTML = "that's a strong password!";
-//       running = False;
+        running = False;
 }
 }
     
