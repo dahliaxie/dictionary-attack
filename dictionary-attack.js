@@ -13,8 +13,11 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
+running = True
+
 function checkPassword(){
 var user = document.getElementById("pw").value;
+while (running == True) {
   for(var i = 0 ; i < wordList.length , i++){
     if (user == wordList[i]){
       document.getElementById("result").innerHTML = "your password is too weak";
