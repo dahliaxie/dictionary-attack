@@ -30,7 +30,7 @@ function printResults(running) {
   if(running == true){
       document.getElementById("result").innerHTML = "good password!";
        break;
-    }else;{
+    }else{
       document.getElementById("result").innerHTML = "that's a weak password, try again!";
       location.reload();
       checkPassword();
