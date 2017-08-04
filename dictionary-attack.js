@@ -18,6 +18,8 @@ var user = document.getElementById("pw").value;
   for(var i = 0 ; i < wordList.length , i++){
     if (user == wordList[i]){
       document.getElementById("result").innerHTML = "your password is too weak";
+    } else {
+      document.getElementById("result").innerHTML = "that's a strong password!";
       break;
     }
   }
