@@ -21,8 +21,6 @@ for(var i = 0 ; i < wordList.length , i++){
      document.getElementById("result").innerHTML = "your password is too weak";
      break;
   }   document.getElementById("result").innerHTML = "that's a strong password!";
-        running = False;
-  }
 }
 }  
 
